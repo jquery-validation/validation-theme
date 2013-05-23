@@ -237,3 +237,199 @@ pre .chunk {
 #content .syntaxhighlighter tr {
 	border-bottom: none;
 }
+
+
+
+/* API Sites
+========================================================================== */
+
+.entry {
+	margin: 15px 0;
+}
+
+.entry-wrapper {
+	border: 1px solid #CCC;
+	border-top: 0;
+	padding: 10px;
+	border-radius: 0 0 5px 5px;
+}
+
+#content .section-title {
+	background: #333;
+	border: 1px solid #111;
+	padding: 8px 15px;
+	font-size: 16px;
+	color: white;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+	letter-spacing: 0;
+	border-radius: 5px 5px 0 0;
+	font-weight: normal;
+	margin-bottom: 0;
+	overflow: hidden;
+}
+
+.returns {
+	float: right;
+	font-style: italic;
+}
+
+.api-item .returns {
+	font-size: 16px;
+	color: #333;
+	font-weight: normal;
+}
+
+#content .signatures {
+	background: #eee;
+	border: 1px solid #ccc;
+	margin: 0 auto 15px;
+	max-width: 750px;
+	border-radius: 3px;
+	color: #333;
+	text-shadow: 0 1px 0 #fff;
+}
+
+#content .signatures li {
+	list-style: none;
+	background: none;
+	margin: 0;
+	padding: 10px;
+}
+
+#content .signatures > li {
+	padding-bottom: 0;
+}
+
+#content .signature > ul {
+	margin: 0;
+}
+
+.signatures h4 {
+	font-size: 16px;
+	letter-spacing: 0;
+	padding: 8px 10px;
+	margin: -10px -10px 0;
+	color: #fff;
+	text-shadow: 0 1px 0 #444;
+	background: #777;
+}
+
+.signature:first-child h4 {
+	border-radius: 3px 3px 0 0;
+}
+
+#content .signature h4 a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.signature h4 .icon-link {
+	margin-right: 0.5em;
+}
+
+.signature .event-properties {
+	margin: 15px 0 0 0;
+}
+
+.argument {
+	margin-top: 1em;
+}
+
+#options, #methods, #events, #quick-nav {
+	border: 1px solid #CCC;
+	margin: 0 15px 15px;
+	padding: 10px;
+	overflow: auto;
+}
+
+#options header h2, #methods header h2, #events header h2, #quick-nav h2 {
+	background: #cccccc; /* Old browsers */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#eeeeee 17%,#cccccc 100%); /* Chrome10+,Safari5.1+ */
+	background: linear-gradient(to bottom, #ffffff 0%,#eeeeee 17%,#cccccc 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+	margin: -10px -10px 10px -10px;
+	padding: 10px;
+}
+
+#quick-nav h2 a {
+	float: right;
+	font-size: 80%;
+	padding-left: 10px;
+}
+
+.quick-nav-section {
+	width: 33%;
+	float: left;
+}
+
+#methods .api-item li,
+#events .api-item li {
+	margin-bottom: 1em;
+}
+
+#methods .api-item li ul,
+#events .api-item li ul {
+	list-style: none;
+}
+
+.version-details {
+	font-weight: bold;
+}
+
+.section-title .version-details,
+.name .version-details {
+	float: right;
+	clear: right;
+	font-size: 14px;
+	color: #fff;
+}
+
+.api-item {
+	padding: 20px 10px;
+}
+.signature li,
+.api-item {
+	border-top: 1px solid #CCC;
+}
+
+.signature li:first-child,
+.api-item.first-item {
+	border-top: none;
+	padding-top: 10px;
+}
+
+.option-type {
+	font-size: 16px;
+	font-weight: normal;
+	color: #333;
+	float: right;
+}
+
+#options .default {
+	text-align: right;
+	font-size: 13px;
+	margin-top: -10px;
+}
+
+.desc {
+	font-size: 16px;
+	padding: 5px 15px 0;
+	color: #666;
+	font-style: italic;
+}
+
+.desc strong {
+	color: #444;
+	font-style: normal;
+}
+
+.entry-summary p {
+	margin: 0;
+}
+
+.warning {
+	padding: 0.5em 1em;
+	margin: 1em;
+	background: #fff3a5;
+	border-radius: 5px;
+}
