@@ -9,6 +9,15 @@ Description: jQuery Validation Plugin Theme based on twentytwelve
 
 @import url("../twentytwelve/style.css");
 
+/* show anchor on hover, adjust offset */
+strong[id] .anchor-link {
+	margin-left: -9px;
+	visibility: hidden;
+}
+strong[id]:hover .anchor-link {
+	visibility: inherit;
+}
+
 /* Syntax Highlighting ---------------------- */
 
 pre, code {

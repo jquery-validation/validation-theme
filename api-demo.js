@@ -1,6 +1,9 @@
-// TODO convert to a WP plugin?
-
 (function() {
+	// silly selector to match only the options for the validate() method
+	$(".signature ul ul div > strong").anchorify({
+		position: "prepend"
+	});
+
 	$( ".entry-example" ).each(function() {
 		var iframeSrc,
 			src = $( this ).find( ".syntaxhighlighter" ),
