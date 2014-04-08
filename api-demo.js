@@ -1,8 +1,4 @@
 (function() {
-	// silly selector to match only the options for the validate() method
-	$(".signature ul ul div > strong").anchorify({
-		position: "prepend"
-	});
 
 	$( ".entry-example" ).each(function() {
 		var iframeSrc,
@@ -47,5 +43,10 @@
 		var doc = (iframe.contentWindow || iframe.contentDocument).document;
 		doc.write( iframeSrc );
 		doc.close();
+	});
+
+	// silly selector to match only the options for the validate() method
+	$("#content").find(".signature ul ul div > strong, h1, h2, h3, h4, h5").anchorify({
+		position: "prepend"
 	});
 }());
