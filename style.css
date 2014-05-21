@@ -18,6 +18,15 @@ Description: jQuery Validation Plugin Theme based on twentytwelve
 	visibility: inherit;
 }
 
+/* logo */
+.site-title a {
+	display: block !important;
+	text-indent: -1000px;
+	width: 546px;
+	height: 130px;
+	background: url(jQVP_Logo_gr.png);
+}
+
 /* Syntax Highlighting ---------------------- */
 
 pre, code {
