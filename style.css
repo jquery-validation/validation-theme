@@ -13,6 +13,8 @@ Description: jQuery Validation Plugin Theme based on twentytwelve
 * > .anchor-link {
 	margin-left: -9px;
 	visibility: hidden;
+	text-decoration: none;
+	color: black;
 }
 *:hover > .anchor-link {
 	visibility: inherit;
