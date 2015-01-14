@@ -11,13 +11,20 @@ Description: jQuery Validation Plugin Theme based on twentytwelve
 
 /* show anchor on hover, adjust offset */
 * > .anchor-link {
-	margin-left: -9px;
+	margin-left: -20px;
+	width: 15px;
+	display: inline-block;
 	visibility: hidden;
 	text-decoration: none;
 	color: black;
 }
 *:hover > .anchor-link {
 	visibility: inherit;
+}
+
+/* hide anchors generated for markdown file headers */
+.toc-link {
+	display: none;
 }
 
 /* logo */
